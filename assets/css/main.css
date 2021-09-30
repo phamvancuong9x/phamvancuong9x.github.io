@@ -171,6 +171,7 @@
 }
 .footer-icon a:hover i {
   color: #000;
+  transition: ease 0.3s;
 }
 .footer-icon i {
   font-size: 32px;
