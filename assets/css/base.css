@@ -106,6 +106,7 @@ select {
 }
 .product-detail__image {
   max-width: 500px;
+  height: 500px;
 }
 .product-detail__info {
   line-height: 1.5;
