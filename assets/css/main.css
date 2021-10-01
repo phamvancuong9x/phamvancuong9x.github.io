@@ -45,6 +45,7 @@ html {
 .nav-item {
   height: 50px;
 }
+
 .parent-nav {
   position: relative;
 }
@@ -62,12 +63,15 @@ html {
 }
 
 .sub-nav__item {
-  /* padding: 0 6px; */
 }
 .sub-nav__item:hover {
   background-color: #cecbcb;
 }
+.sub-nav__item:hover .parent-nav__link {
+  opacity: 0.7 !important;
+}
 .sub-nav__item > a {
+  padding: 14px 0;
   color: #000 !important;
 }
 
