@@ -56,12 +56,13 @@ html {
   cursor: text;
 }
 .parent-nav:hover .sub-nav {
-  display: block;
+  height: 100px;
   transition: linear 0.3s;
 }
 
 .sub-nav {
-  display: none;
+  overflow: hidden;
+  height: 0;
   width: 210px;
   position: absolute;
   top: 50px;
