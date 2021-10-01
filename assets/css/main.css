@@ -42,6 +42,13 @@
 
 .nav-item {
 }
+.nav-search {
+  font-size: 18px;
+  background-color: #34465b;
+  padding: 4px 0;
+  border: none;
+  color: #fff;
+}
 .nav-item a {
   margin: 0 12px;
   color: #fff;
