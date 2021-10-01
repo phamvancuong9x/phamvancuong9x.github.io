@@ -47,6 +47,10 @@
   font-size: 25px;
   text-decoration: none;
 }
+.nav-item a:hover {
+  opacity: 0.7;
+  transition: linear 0.3s;
+}
 /* content */
 .content {
   width: 1200px;
