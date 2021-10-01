@@ -64,6 +64,9 @@ html {
 .sub-nav__item {
   /* padding: 0 6px; */
 }
+.sub-nav__item:hover {
+  background-color: #cecbcb;
+}
 .sub-nav__item > a {
   color: #000 !important;
 }
