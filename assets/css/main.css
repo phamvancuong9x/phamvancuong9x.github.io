@@ -42,6 +42,9 @@ html {
   align-items: center;
 }
 
+.nav-home {
+  border-bottom: 5px solid rgb(135, 195, 255);
+}
 .nav-item {
   height: 50px;
 }
