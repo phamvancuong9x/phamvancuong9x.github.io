@@ -96,6 +96,9 @@
   border: none;
   color: #fff;
 }
+.nav-item:hover {
+  border-bottom: 5px solid rgb(135, 195, 255);
+}
 .nav-item a {
   line-height: 50px;
   margin: 0 12px;
