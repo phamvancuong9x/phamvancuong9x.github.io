@@ -54,9 +54,16 @@
 .parent-nav {
   position: relative;
 }
-.parent-nav:hover .sub-nav {
+/* .parent-nav:hover .sub-nav {
   display: block;
   transition: linear 0.3s;
+} */
+.parent-nav {
+  border-bottom: 5px solid rgb(135, 195, 255);
+}
+.parent-nav > a {
+  opacity: 1 !important;
+  cursor: text;
 }
 .sub-nav {
   display: none;
