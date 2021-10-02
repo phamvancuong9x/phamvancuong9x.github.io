@@ -57,7 +57,7 @@ html {
 }
 .parent-nav:hover .sub-nav {
   height: 100px;
-  transition: linear 0.3s;
+  transition: linear 0.2s;
 }
 
 .sub-nav {
@@ -173,7 +173,7 @@ html {
 }
 .nav-item:hover {
   border-bottom: 5px solid rgb(135, 195, 255);
-  transition: ease 0.3s;
+  transition: ease 0.2s;
 }
 .nav-item a {
   line-height: 50px;
