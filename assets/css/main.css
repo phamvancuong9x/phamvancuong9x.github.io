@@ -87,8 +87,11 @@ html {
   color: #fff;
 }
 .sub-nav__item > a {
-  padding: 14px 0;
+  padding: 16px 0;
   color: #000 !important;
+  display: block;
+  text-decoration: none;
+  text-align: center;
 }
 /* Notification */
 .parent-notify {
@@ -196,7 +199,7 @@ html {
   border-bottom: 5px solid rgb(135, 195, 255);
   transition: ease 0.2s;
 }
-.nav-item >a {
+.nav-item > a {
   line-height: 50px;
   margin: 0 12px;
   padding: 14px 0;
