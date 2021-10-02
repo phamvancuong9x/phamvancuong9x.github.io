@@ -141,6 +141,7 @@
 
 .header__notify-link {
   display: flex;
+  text-decoration: none;
 }
 
 .header__notify-viewed {
@@ -175,10 +176,11 @@
 }
 .header__notify-footer .header__notify-footer-link {
   display: block;
+  margin: 0;
+  width: 100%;
   color: #222;
   line-height: 35px;
-  width: 100%;
-  margin: 0;
+  text-decoration: none;
 }
 /* Nav-Search */
 .nav-search {
@@ -191,7 +193,7 @@
 .nav-item:hover {
   border-bottom: 5px solid rgb(135, 195, 255);
 }
-.nav-item a {
+.nav-item >a {
   line-height: 50px;
   margin: 0 12px;
   padding: 14px 0;

@@ -127,6 +127,7 @@
 
 .header__notify-list {
   list-style-type: none;
+  text-decoration: none;
 }
 
 .header__notify-item {
@@ -172,10 +173,11 @@
 }
 .header__notify-footer .header__notify-footer-link {
   display: block;
-  color: #222;
-  line-height: 35px;
   width: 100%;
   margin: 0;
+  line-height: 35px;
+  color: #222;
+  text-decoration: none;
 }
 /* Nav-search */
 .nav-search {
@@ -188,7 +190,7 @@
 .nav-item:hover {
   border-bottom: 5px solid rgb(135, 195, 255);
 }
-.nav-item a {
+.nav-item >a {
   line-height: 50px;
   margin: 0 12px;
   padding: 14px 0;
