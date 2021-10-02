@@ -104,9 +104,18 @@ html {
   width: 380px;
   background-color: #fff;
   position: absolute;
-  top: calc(100% +5px);
+  top: calc(100% + 5px);
   right: 0;
   border: 1px solid #e9e7f7;
+}
+.header__notify::before {
+  content: "";
+  position: absolute;
+  top: -33px;
+  right: 24px;
+  border-width: 20px 30px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
 }
 
 .header__notify-heading {
