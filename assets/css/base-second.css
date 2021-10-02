@@ -292,7 +292,7 @@ select {
 .product-detail__info span {
   color: var(--blue-color);
 }
-p {
+.product-detail__info> p {
   margin: 10px 0;
 }
 .configuration-watch {
