@@ -61,6 +61,7 @@ html {
 }
 
 .sub-nav {
+  /* border: 1px solid #e9e7f7; */
   overflow: hidden;
   height: 0;
   width: 210px;
@@ -68,7 +69,8 @@ html {
   top: 50px;
   left: 0;
   list-style-type: none;
-  background-color: #f3f3f3;
+  background-color: #eaecee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .sub-nav__item a {
@@ -76,18 +78,92 @@ html {
 }
 .sub-nav__item:hover,
 .sub-nav__item:hover > a {
-  background-color: #cecbcb;
+  background-color: rgb(248, 248, 248);
   transition: ease-in 0.1s;
   color: #fff;
 }
-/* .sub-nav__item:hover .parent-nav__link {
-  opacity: 0.7 !important;
-} */
 .sub-nav__item > a {
   padding: 14px 0;
   color: #000 !important;
 }
+/* Notification */
+.parent-notify {
+  position: relative;
+}
+.parent-notify:hover .header__notify {
+  display: block;
+}
+.header__notify {
+  display: none;
+  width: 350px;
+  background-color: #fff;
+  position: absolute;
+  top: calc(100% +5px);
+  right: 0;
+  border: 1px solid #e9e7f7;
+}
 
+.header__notify-heading {
+  text-transform: capitalize;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 16px;
+}
+
+.header__notify-list {
+  list-style-type: none;
+}
+
+.header__notify-item {
+  padding: 6px 0;
+}
+.header__notify-item:hover {
+  background-color: rgb(248, 248, 248);
+}
+
+.header__notify-link {
+  display: flex;
+}
+
+.header__notify-viewed {
+  background-color: rgba(52, 70, 91, 0.1);
+}
+
+.header__notify-img {
+  padding: 4px;
+  width: 40px;
+  object-fit: contain;
+}
+.header__notify-info {
+  line-height: 1.2rem;
+}
+
+.header__notify-name {
+  font-size: 13px;
+  color: #222;
+}
+
+.header__notify-description {
+  font-size: 12px;
+  color: #666;
+}
+.header__notify-footer {
+  text-align: center;
+  height: 35px;
+  background-color: rgb(242, 242, 242);
+}
+.header__notify-footer:hover {
+  background-color: rgb(248, 248, 248);
+}
+.header__notify-footer .header__notify-footer-link {
+  color: #222;
+  line-height: 35px;
+  padding: 5px 128px;
+  margin: 0;
+}
+/* nav-search */
 .nav-search {
   font-size: 18px;
   background-color: #34465b;
@@ -107,7 +183,7 @@ html {
   text-decoration: none;
 }
 
-.nav-item a:hover {
+.nav-item > a:hover {
   opacity: 0.7;
   transition: linear 0.2s;
 }
