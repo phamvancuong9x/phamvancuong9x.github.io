@@ -139,6 +139,7 @@
 
 .header__notify-link {
   display: flex;
+  text-decoration: none;
 }
 
 .header__notify-viewed {
