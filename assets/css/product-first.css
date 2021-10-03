@@ -1,3 +1,4 @@
+@import url(/assets/css/grid.css);
 @import url(/assets/css/base.css);
 /* header product-detail */
 .parent-nav:hover .sub-nav {
@@ -122,16 +123,4 @@ table td {
 .btn-Back a {
   color: #fff;
   text-decoration: unset;
-}
-/* animation  */
-
-@keyframes header__notify-growth {
-  from {
-    transform: scale(0);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
 }
