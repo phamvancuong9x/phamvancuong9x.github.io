@@ -1,6 +1,3 @@
-@import url(/assets/css/grid.css);
-@import url(/assets/css/base.css);
-
 /* main-header-css */
 
 /* content */
@@ -150,20 +147,6 @@
   font-size: 32px;
   color: #919294;
 }
-
-/* animation  */
-
-/* @keyframes header__notify-growth {
-  from {
-    transform: scale(0);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-} */
-
 /* .btn {
   position: absolute;
   top: 170px;
