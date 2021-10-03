@@ -1,0 +1,8 @@
+@media (max-width: 739px) {
+  .product__image,
+  .product-text {
+    max-width: 200px;
+  }
+  .product-text {
+  }
+}
