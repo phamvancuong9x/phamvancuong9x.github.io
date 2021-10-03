@@ -3,7 +3,9 @@
 .parent-nav:hover .sub-nav {
   height: 0;
 }
-
+.parent-nav{
+border-bottom: 5px solid rgb(135, 195, 255);
+}
 /* content-product-detail */
 .content {
   width: 1200px;

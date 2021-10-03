@@ -3,6 +3,9 @@
 .parent-nav:hover .sub-nav {
   height: 0;
 }
+.parent-nav {
+  border-bottom: 5px solid rgb(135, 195, 255);
+}
 /* content */
 .content {
   width: 1200px;
@@ -92,7 +95,7 @@ select {
 .product-detail__info span {
   color: var(--blue-color);
 }
-.product-detail__info> p {
+.product-detail__info > p {
   margin: 10px 0;
 }
 .configuration-watch {
@@ -133,4 +136,3 @@ table td {
     opacity: 1;
   }
 }
-
